@@ -5,7 +5,7 @@ public class Yildiz {
         System.out.print("Bir Sayı Giriniz :");
         int n = input.nextInt();
 
-        for (int i = n; i >= 0 ; i--)
+        for (int i = n; i > 0 ; i--)
         {
             for (int j = n; j > i; j--)
             {
